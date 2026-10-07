@@ -1,20 +1,4 @@
-<div align="center">
 
-<img src="https://raw.githubusercontent.com/KeygraphHQ/astra/main/assets/github-banner-light.png" alt="Astra, AI Pentester for Web Apps and APIs, by Keygraph" width="100%">
-
-### Astra is an autonomous, AI pentester for web applications and APIs.
-
-It analyzes your source code, identifies attack paths, and executes real exploits to prove vulnerabilities before they reach production.
-
-**This package is Astra Open Source: the full agent, run locally from your command line.**
-
----
-
-<a href="https://discord.gg/9ZqQPuhJB7"><img src="https://raw.githubusercontent.com/KeygraphHQ/astra/main/assets/discord_button_light.png" height="40" alt="Join Discord"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://keygraph.io/"><img src="https://raw.githubusercontent.com/KeygraphHQ/astra/main/assets/keygraph_button_light.png" height="40" alt="Visit Keygraph.io"></a>
-
----
-
-</div>
 
 ## Quick Start
 
