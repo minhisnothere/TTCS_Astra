@@ -1,7 +1,5 @@
 {
-  "name": "@keygraph/astra",
-  "version": "0.0.0",
-  "description": "Astra is an autonomous white-box AI pentester for web applications and APIs, by Keygraph.",
+  "description": "Astra is an autonomous white-box AI pentester for web applications and APIs.",
   "type": "module",
   "main": "dist/index.mjs",
   "bin": {
@@ -34,19 +32,7 @@
     "owasp",
     "exploitation",
     "appsec",
-    "keygraph"
   ],
-  "author": "Keygraph, Inc.",
-  "license": "AGPL-3.0-only",
-  "bugs": {
-    "url": "https://github.com/KeygraphHQ/astra/issues"
-  },
-  "homepage": "https://github.com/KeygraphHQ/astra#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeygraphHQ/astra.git",
-    "directory": "apps/cli"
-  },
   "engines": {
     "node": ">=18"
   },
